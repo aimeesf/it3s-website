@@ -1,0 +1,72 @@
+body {
+	/*width: 1024px;*/
+	margin: 0px 100px;
+}
+
+#container {
+	width: 860px;
+	margin: auto;
+}
+
+#header {
+	background: url('../images/squares_top.png') no-repeat center top;
+	height: 214px;
+}
+
+#logo {
+	float: left;
+	margin-top: 84px;
+}
+
+#languages {
+	float: right;
+	top: 196px;
+	color: #808080;
+	position: relative;
+}
+
+#main {
+	position: relative;
+	margin-top: 31px;
+	/* border: 1px solid black; */
+}
+
+#left {
+	float: left;
+	padding-left: 45px;
+	width: 244px;
+}
+
+#menu-left {
+	width: 97px;
+	float: left;
+}
+
+#menu-right {
+	width: 97px;
+	float: left;
+}
+
+#menu ul {
+	list-style-image: url("../images/square_default.png");
+	padding-left: 15px;
+}
+
+#center {
+	float: left;
+	width: 383px;
+}
+
+#right {
+	float: left;
+	width: 170px;
+	padding-left: 16px;
+}
+
+#footer {
+	margin: 0px auto;
+	width: 650px;
+	color: #808080;
+	padding-top: 30px;
+	text-align: center;
+}
