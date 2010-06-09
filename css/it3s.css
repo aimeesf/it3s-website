@@ -70,3 +70,24 @@ body {
 	padding-top: 30px;
 	text-align: center;
 }
+
+#twitter-box {
+	width: 158px;
+	background: url("../images/twitterbox_body.png") repeat-y center;
+}
+
+#twitter-top {
+	background: url("../images/twitterbox_top.png") no-repeat center bottom;
+	width: 158px;
+	height: 6px;
+}
+
+#twitter-body {
+	background: url("../images/twitterbox_body.png") repeat-y center;
+	width: 158px;
+}
+
+#twitter-bottom {
+	background: url("../images/twitterbox_bottom.png") no-repeat center;
+	height: 48px;
+}
