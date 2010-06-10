@@ -1,6 +1,7 @@
 body {
 	/*width: 1024px;*/
 	margin: 0px 100px;
+	font-size: 11pt;
 }
 
 #container {
@@ -69,25 +70,39 @@ body {
 	color: #808080;
 	padding-top: 30px;
 	text-align: center;
+	font-size: 10pt;
 }
 
 #twitter-box {
 	width: 158px;
 	background: url("../images/twitterbox_body.png") repeat-y center;
+/*	background: url("../images/twitterbox_body.png") repeat-y; */
 }
 
 #twitter-top {
-	background: url("../images/twitterbox_top.png") no-repeat center bottom;
-	width: 158px;
+	background: url("../images/twitterbox_top.png") no-repeat center;
 	height: 6px;
+	margin: 0;
+	padding: 0;
 }
 
 #twitter-body {
 	background: url("../images/twitterbox_body.png") repeat-y center;
-	width: 158px;
+	padding: 0 10px;
+	font-size: 8pt;
+}
+
+#twitter-body ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 10px;
+}
+
+#twitter-body li {
+	padding-bottom: 8px;
 }
 
 #twitter-bottom {
 	background: url("../images/twitterbox_bottom.png") no-repeat center;
-	height: 48px;
+	height: 47px;
 }
