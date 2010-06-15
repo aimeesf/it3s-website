@@ -25,7 +25,7 @@ body {
 
 #languages {
 	float: right;
-	padding-right: 15px;
+	padding-right: 2px;
 	font-size: 8pt;
 	top: 196px;
 	color: #808080;
@@ -40,8 +40,8 @@ body {
 
 #left {
 	float: left;
-	padding-left: 45px;
-	width: 244px;
+	padding-left: 60px;
+	width: 230px;
 }
 
 #menu {
@@ -64,8 +64,15 @@ body {
 
 #menu ul {
 	list-style-image: url("../images/square_default.png");
-	padding-left: 15px;
+	padding: 0 0 0 0;
 	margin-left: 0;
+}
+#menu #right-menu {
+    float: right;
+	text-align: right;
+    direction: rtl;
+    padding: 0 0 20px 0;
+    list-style-position: inside;
 }
 
 #menu li.selected {
@@ -77,12 +84,13 @@ body {
 #center {
 	float: left;
 	width: 383px;
+	padding: 10 0 0 0;
 }
 
 #right {
-	float: left;
+	float: right;
 	width: 170px;
-	padding-left: 16px;
+	padding: 0 0 0 16px;
 }
 
 #footer {
@@ -98,6 +106,7 @@ body {
 }
 
 #twitter-box {
+    float:right;
 	width: 158px;
 	margin-top: -8px;
 	padding-top: 0;
