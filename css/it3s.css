@@ -53,12 +53,13 @@ body {
 	width: 194px;
 }
 #menu-right {
-	margin: 0;
-	padding: 0;
+	
+	
 	font-size: 8pt;
 	color: #808080;
 	text-transform: uppercase;
-	width: 150px;
+	float: right;
+	text-align: right;
 }
 
 
@@ -80,18 +81,14 @@ body {
 
 #menu-right ul {
 	list-style-image: url("../images/square_default.png");
-	padding: 0 0 0 0;
-	margin-left: 0;
+	padding: 0 0 0 0px;
+	margin: 0 0 0 0;
+	direction: rtl;
+	list-style-position: inside;
+	margin: 10 0 20 0;	
 }
 
-#menu-right-0 {
-    float: right;
-	text-align: right;
-    direction: rtl;
-    padding: 0 0 20px 0;
-    list-style-position: inside;
-    width: 150px;
-}
+
 
 #menu li.selected {
 	list-style-image: url("../images/square_selected.png");
@@ -102,13 +99,15 @@ body {
 #center {
 	float: left;
 	width: 383px;
-	padding: 10 0 0 0;
+	padding: 0 0 0 0;
 }
 
 #right {
+   /* border: 1px solid black;*/
 	float: right;
 	width: 150px;
-	padding: 0 0 0 16px;
+	margin: 0;
+	padding: 0 0 0 0;
 }
 
 #footer {
@@ -126,17 +125,18 @@ body {
 #twitter-box {
     float:right;
 	width: 158px;
-	margin-top: -8px;
+	margin-top: 0px;
 	padding-top: 0;
-	background: url("../images/twitterbox_body.png") repeat-y center;
+	background: url("../images/twitterbox_body.png") repeat-y center top;
 /*	background: url("../images/twitterbox_body.png") repeat-y; */
 }
 
 #twitter-top {
-	/*background: url("../images/twitterbox_top.png") no-repeat center;*/
+	background: url("../images/twitterbox_top.png") no-repeat center;
+	/*vertical-align: top;*/
 	height: 6px;
-	margin: 0;
-	padding: 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }
 
 #twitter-body {
