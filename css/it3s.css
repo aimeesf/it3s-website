@@ -44,7 +44,7 @@ body {
 	width: 230px;
 }
 
-#menu {
+#menu-left {
 	margin: 0;
 	padding: 0;
 	font-size: 8pt;
@@ -52,23 +52,39 @@ body {
 	text-transform: uppercase;
 	width: 194px;
 }
-
-#menu-left {
-	width: 97px;
-	float: left;
-}
-
 #menu-right {
+	margin: 0;
+	padding: 0;
+	font-size: 8pt;
+	color: #808080;
+	text-transform: uppercase;
+	width: 150px;
+}
+
+
+#menu-left-left {
 	width: 97px;
 	float: left;
 }
 
-#menu ul {
+#menu-left-right {
+	width: 97px;
+	float: left;
+}
+
+#menu-left ul {
 	list-style-image: url("../images/square_default.png");
 	padding: 0 0 0 0;
 	margin-left: 0;
 }
-#menu #right-menu {
+
+#menu-right ul {
+	list-style-image: url("../images/square_default.png");
+	padding: 0 0 0 0;
+	margin-left: 0;
+}
+
+#menu-right-0 {
     float: right;
 	text-align: right;
     direction: rtl;
