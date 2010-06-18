@@ -8,7 +8,7 @@ body {
 }
 
 #container {
-	width: 860px;
+	width: 800px;
 	margin: auto;
 	text-align: left;
 }
@@ -35,13 +35,12 @@ body {
 #main {
 	position: relative;
 	margin-top: 31px;
-	/* border: 1px solid black; */
 }
 
 #left {
 	float: left;
 	padding-left: 60px;
-	width: 230px;
+	width: 220px;
 }
 
 #menu-left {
@@ -98,14 +97,13 @@ body {
 
 #center {
 	float: left;
-	width: 383px;
+	width: 356px;
 	padding: 0 0 0 0;
 }
 
 #right {
-   /* border: 1px solid black;*/
 	float: right;
-	width: 150px;
+	width: 158px;
 	margin: 0;
 	padding: 0 0 0 0;
 }
